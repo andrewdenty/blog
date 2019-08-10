@@ -4,7 +4,7 @@ title:  "Do you want your user experience shaken or stirred? (When to include op
 date:   2019-08-08 15:31:49 +0200
 categories: [User Experience, Simplicity, Design, Interaction Design,]
 ---
-![Abstract options](/blog/assets/options-illustration.png)
+![Abstract options](blog/assets/options-illustration.png)
 This week my boss and I were debating whether we should add an option to an app we’re working on.
 
 The app in question displays photos on a TV. Simple really, except photos are typically a different aspect ratio to TVs.
