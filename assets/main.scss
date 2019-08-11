@@ -15,5 +15,9 @@ a:visited {color: #767676;}
 .post-title {font-size: 28px;letter-spacing: 0px;line-height: 1.4em;font-weight: 700;}
 .site-nav .page-link {color:#767676;}
 .site-nav .page-link:hover {text-decoration:none; color: #F6714F; border-bottom: 1px dotted;}
+/*<!-- Post list page -->*/
 .post-link {margin-top: -40px;}
 .post-list li {margin-bottom:40px;}
+.post-list-heading {margin-bottom:80px;margin-top: 80px;}
+/*<!-- sets max width of content-->*/
+.wrapper {max-width: 800px;}

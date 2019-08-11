@@ -4,13 +4,15 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
+<div class="airtame-section">   
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
+    
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">Thoughts on UX</h2>
+    <h2 class="post-list-heading">Thoughts on design</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -21,9 +23,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        {{ post.content | strip_html | truncatewords: 50 }}
       </li>
       {%- endfor -%}
     </ul>

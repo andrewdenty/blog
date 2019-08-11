@@ -1,6 +1,29 @@
-<header class="site-header">
-
-  <div class="wrapper">
+<header> <!--class="site-header"-->
+    <div id="Header">
+            <div class="page-header">
+            <div class="container">
+            <div class="d-flex flex-column flex-md-row align-items-center">
+            <div class="mr-md-auto">
+                    <a class="logo" href="{{site.url}}/">Andrew Denty</a>
+                </div>
+            
+                <div class="col-auto p-3">
+                    <a href="{{site.url}}/portfolio.html">Portfolio</a>  
+                </div>
+            
+                <div class="col-auto p-3">
+                    <a class="active-item" href={{ "/" | relative_url }}>Thoughts on design</a>  
+                </div>
+                
+                <div class="col-auto p-3">
+                    <a class="" href="https://www.parttimebackpacker.com">Personal blog</a>
+                </div>
+    
+            </div>
+            </div>
+            </div>
+    </div>
+  <!--<div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
@@ -26,9 +49,9 @@
             {%- if my_page.title -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
-          {%- endfor -%}-->
+          {%- endfor -%}
         </div>
       </nav>
     {%- endif -%}
-  </div>
+  </div>-->
 </header>

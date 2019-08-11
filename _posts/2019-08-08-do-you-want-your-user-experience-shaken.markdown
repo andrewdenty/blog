@@ -4,10 +4,10 @@ title:  "Do you want your user experience shaken or stirred? (When to include op
 date:   2019-08-08 15:31:49 +0200
 categories: [User Experience, Simplicity, Design, Interaction Design,]
 ---
-![Abstract options]({{site.baseurl}}/assets/options-illustration.png)
+![Abstract options]({{site.baseurl}}/assets/img/options-illustration.png)
 This week my boss and I were debating whether we should add an option to an app we’re working on.
 
-The app in question displays photos on a TV. Simple really, except photos are typically a different aspect ratio to TVs.
+The app in question displays photos on a TV. Simple really, except photos are typically a different aspect ratio to TVs. <!--more-->
 
 We had three basic choices:
 
@@ -29,4 +29,3 @@ The golden rule on deciding whether to add an option is to understand whether th
 I’d definitely recommend reading [Joel's article on choices][joel-blog]. Even after 19 years, it’s still wholly relevant.
 
 [joel-blog]: https://www.joelonsoftware.com/2000/04/12/choices/
-
