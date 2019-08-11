@@ -13,13 +13,14 @@ a:visited {color: #767676;}
 .site-title, .site-title:visited {font-weight: 600;font-size: 24px; color: #22bee3}
 .site-header {background-color:#fafafa;border:none;color:#707070;margin-top: 0px;margin-bottom:0px;padding-top:80px; padding-bottom: 60px;}
 .page-header {font-weight: 500;}
-.post-title {font-size: 28px;letter-spacing: 0px;line-height: 1.4em;font-weight: 700;}
+.post-title {font-size: 28px;letter-spacing: 0px;line-height: 1.4em;font-weight: 700;margin-top: 80px;}
 .post p {font-weight:400;}
 .site-nav .page-link {color:#767676;}
 .site-nav .page-link:hover {text-decoration:none; color: #F6714F; border-bottom: 1px dotted;}
 /*<!-- Post list page -->*/
-.post-link {margin-top: -40px;}
+h3 .post-link  {margin-top: -40px; line-height: 1.5;}
 .post-list li {margin-bottom:40px;}
 .post-list-heading {margin-bottom:80px;margin-top: 80px;}
 /*<!-- sets max width of content-->*/
 .wrapper {max-width: 800px;}
+li {margin-bottom: 80px;margin-top: 80px;}
