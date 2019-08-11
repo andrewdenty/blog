@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 _posts/.DS_Store
 _layouts/.DS_Store
+assets/.DS_Store
+.DS_Store

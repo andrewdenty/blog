@@ -3,36 +3,30 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-<div class="airtame-section">   
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-    
+    {%- if page.title -%}
+    <div class="airtame-section">
+        <h1 class="page-heading">{{ page.title }}</h1>
+        {%- endif -%}
 
-  {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">Thoughts on design</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {{ post.content | strip_html | truncatewords: 50 }}
-      </li>
-      {%- endfor -%}
-    </ul>
+        {{ content }}
 
-    <p class="feed-subscribe">
-      <a href="{{ 'feed.xml' | relative_url }}">
-        <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
-      </a>
-    </p>
-  {%- endif -%}
+        {%- if site.posts.size > 0 -%}
+        <h2 class="post-list-heading">Thoughts on design</h2>
+        <ul class="post-list">
+            {%- for post in site.posts -%}
+            <li>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                        <h3>
+                            {{ post.title | escape }}
+                        </h3>
+                        {{ post.content | strip_html | truncatewords: 50 }}
+                    </a>
+            </li>
+            {%- endfor -%}
+        </ul>
+        {%- endif -%}
 
-</div>
+    </div>
