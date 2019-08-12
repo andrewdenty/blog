@@ -10,7 +10,7 @@ This week my boss and I were debating whether we should add an option to an app 
 
 The app in question displays photos on a TV. Simple really, except photos are typically a different aspect ratio to TVs. <!--more-->
 
-We had three basic choices:
+**We had three basic choices:**
 
 1. Fill the screen with the photo; meaning in some cases photos would be badly cropped, (kind of like those old holiday photos with an ex hastily cut out).
 2. Resize photos to fit the screen; meaning most photos would have black bars alongside them. This hardly creates an immersive experience.
@@ -21,7 +21,7 @@ So what did we do? Ultimately we ended up designing an automatic mode, whereby w
 
 We also decided to include the two options to either fill or fit the image. The advantage of this is that for most users, the app will just work, but for those users who do really care, they can control exactly how their photos are displayed.
 
-So why am I sharing this story?
+**So why am I sharing this story?**
 
 This led to a discussion about whether options are a good thing. After a lot of contemplation, I think we’ve reached a conclusion:
 
