@@ -9,6 +9,6 @@ This article is a great overview of some of the options available to Product Man
 
 It’s not always about adding new features. In fact often the best improvements you can make to a product are to make it’s existing features more accessible to more people, or simply make those existing features work better for existing users.
 
-Link - [Intercom blog - How to make product improvements to existing products](https://www.intercom.com/blog/ways-to-improve-a-product/)
+Link - [Intercom blog - How to make product improvements to existing products](https://www.intercom.com/blog/ways-to-improve-a-product/){:target="_blank"}
 
 
