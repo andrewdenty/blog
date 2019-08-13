@@ -22,6 +22,11 @@ url: "https://andrewdenty.com" # the base hostname & protocol for your site, e.g
 twitter_username: andrewdenty
 github_username:  andrewdenty
 
+plugins:
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/blog/page:num/"
+
 # Build settings
 markdown: kramdown
 theme: minima

@@ -2,7 +2,7 @@
 layout: post
 title:  "Is the iPhone X is a user experience nightmare?"
 date:   2017-11-08 15:31:49 +0200
-categories: [User Experience, Simplicity, Design, Interaction Design,]
+tags: [User Experience, Simplicity, Design, Interaction Design,]
 ---
 ![How many hands do you need to use an iPhone X?]({{site.baseurl}}/assets/img/iphonex-hands.jpg)
 

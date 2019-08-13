@@ -2,7 +2,7 @@
 layout: post
 title:  "How to make product improvements"
 date:   2019-02-01 15:31:49 +0200
-categories: [User Experience, Simplicity, Design, Interaction Design,]
+tags: [User Experience, Simplicity, Design, Interaction Design,]
 ---
 ![How to make product improvements. Image from Intercom blog.]({{site.baseurl}}/assets/img/product-improvements.png)
 
