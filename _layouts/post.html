@@ -19,12 +19,14 @@ layout: default
     {{ content }}
   </div>
 
+<div class="spacer"></div>
   <div class="PageNavigation">
+      <h5>More posts – </h5>
     {% if page.previous.url %}
-        <a class="prev" href="{{post.previous.url}}">&laquo; {{page.previous.title | truncatewords: 8 }}</a>
+        <a class="prev" href="{{ page.previous.url | relative_url }}">&laquo; {{page.previous.title | truncatewords: 8 }}</a>
     {% endif %}
     {% if page.next.url %}
-        <a class="next" href="{{post.next.url}}">{{page.next.title | truncatewords: 8 }} &raquo;</a>
+        <a class="next" href="{{ page.next.url | relative_url }}">{{page.next.title | truncatewords: 8 }} &raquo;</a>
     {% endif %}
 </div>
 
