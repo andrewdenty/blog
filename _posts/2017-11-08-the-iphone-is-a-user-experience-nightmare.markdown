@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Is the iPhone X is a user experience nightmare?"
+title:  "Is the iPhone X a user experience nightmare?"
 date:   2017-11-08 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 ---
