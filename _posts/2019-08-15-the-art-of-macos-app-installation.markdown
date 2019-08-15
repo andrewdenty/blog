@@ -5,8 +5,7 @@ date:   2019-08-15 21:22:00 +0200
 tags: [User Experience, Simplicity, Design, MacOS, Interaction Design,]
 ---
 ![Abstract options]({{site.baseurl}}/assets/img/macos-installation-woes.png)
-
-
+&nbsp;
 
 When it comes to app installation, it turns out Mac developers really do **_think different_**.
 
@@ -18,20 +17,18 @@ MacOS was designed to avoid installation headaches by distributing apps as all-i
 
 That sounds ingeniously simple, right? Well technically it is, but there’s still the small task of helping users complete the installation by moving the newly downloaded app into the ‘Applications’ folder.
 
-What differs is how app designers handle this task. I’m going to explore four commonly used approaches ranging from outright hostile to almost magic…
+What differs is how app designers handle this task. I’m going to explore four commonly used approaches ranging from theg outright hostile to almost magic…
 
 For each of these examples I’m assuming that the user downloads the app, and then simply opens it.
 
-
-### Approach 1 - totally unhelpful:
+#### Approach 1 - totally unhelpful:
 
 Some apps refuse to run from the downloads folder.
 
 ![Figma MacOS installation]({{site.baseurl}}/assets/img/figma-macos-install-message.png)
-
 In this case the app is aware of what the user needs to do, but instead of helping them with the task, it simply tells the user they’re doing the wrong thing and to try something new.
 
-### Approach 2 - immediate gratification, future chaos:
+#### Approach 2 - immediate gratification, future chaos:
 
 Many apps download, and can be run right away from the download folder:
 
@@ -43,8 +40,7 @@ This achieves the user’s immediate goal of running the app, but it doesn’t h
 
 While the user can launch the app right away, this method doesn’t help the user keep their computer tidy, or even provide guidance about how to do this. This approach is better suited to more technical computer users (for example the kind of people who would be downloading the GitHub client).
 
-
-### Approach 3 - better, but very untidy:
+#### Approach 3 - better, but very untidy:
 Many apps download in a DMG package which looks a bit like this:
 
 ![GitHub MacOS download]({{site.baseurl}}/assets/img/airtame-macos-installer.png)
@@ -56,12 +52,11 @@ This is really simple, and makes it easy to drag the app right into the app fold
 - There is a virtual disk image mounted in their system
 - The original download is still in the ’Downloads’ folder
 
-### Approach 4 - almost perfect!
+#### Approach 4 - almost perfect!
 
 Like approach 2, the download is simply the app. When the app is launched, it immediately asks whether you’d like to move the app to your app folder.
 
 ![GitHub MacOS download]({{site.baseurl}}/assets/img/disk-sensei-macos-install.png)
-
 This gives the user freedom to use the app right away with what they were intending to do, but at the same time helps keep their computer organised.
 
 I think this approach can still be improved though. The text is a little ambiguous and leaves inexperienced users with a decision they may not fully understand which isn’t a great feeling. 
