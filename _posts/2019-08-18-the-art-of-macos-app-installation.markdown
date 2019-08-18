@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "The art of Mac app installation"
-date:   2019-08-15 21:22:00 +0200
+date:   2019-08-18 19:17:00 +0200
 tags: [User Experience, Simplicity, Design, MacOS, Interaction Design,]
 ---
 ![Abstract options]({{site.baseurl}}/assets/img/macos-installation-woes.png)
-&nbsp;
+
 
 When it comes to app installation, it turns out Mac developers really do **_think different_**.
 
