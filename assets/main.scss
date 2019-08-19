@@ -55,6 +55,9 @@ a:visited {color: #767676;}
     text-align: right;
   }
 
+
+  blockquote {font-style:normal;font-size: 20px;border-left: 5px solid #F6714F;letter-spacing:normal;color:#212529; padding:10px 30px 10px 30px; }
+
   /*<!-- Navigation menu responsive tweaks -->*/
   @media (max-width: 769px) {
     h1 {margin-top:40px;}
