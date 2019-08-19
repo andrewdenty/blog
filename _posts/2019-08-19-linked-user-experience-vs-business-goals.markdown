@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linked - User experience vs. business goals: finding the balance"
-date:   2019-08-19 12:05:00 +0200
+date:   2019-08-19 17:35:00 +0200
 tags: [User Experience, Business,]
 categories: Linked
 ---
@@ -19,5 +19,7 @@ If you want to grow sustainably, doing the right thing for your customers is pre
 My advice to any designer struggling to convince a Product Manager to do the right thing for their customers is to talk through what the longer term implications of a particular decision could be and to ask them whether this will help them meet their goals in the long-run.
 
 A product only exists to satisfy the needs of its customers, and if it’s not doing that, then it’s not a sustainable product.
+
+[User experience vs. business goals: finding the balance](https://uxdesign.cc/user-experience-vs-business-goals-finding-the-balance-7507ac85b0a9){:target="_blank"}
 
 
