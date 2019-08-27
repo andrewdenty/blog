@@ -10,6 +10,4 @@ A really interesting take on typography on the web. I definitely agree that Helv
 
 As for switching to Verdana, Tahoma, or Trebuchet. I think I’ll pass. These fonts were designed for the low DPI screens of the 90s - just use a modern web font!
 
-Source - http://www.64notes.com/design/stop-helvetica-arial/
-
 **Link** - [64 notes - stop using Arial and Helvetica](http://www.64notes.com/design/stop-helvetica-arial/){:target="_blank"}

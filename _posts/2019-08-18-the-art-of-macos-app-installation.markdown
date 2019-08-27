@@ -7,7 +7,7 @@ tags: [User Experience, Simplicity, Design, MacOS, Interaction Design,]
 ![Abstract options]({{site.baseurl}}/assets/img/macos-installation-woes.png)
 
 
-When it comes to app installation, it turns out Mac developers really do **_think different_**.
+**When it comes to app installation, it turns out Mac developers really do _think different_.**
 
 Have you ever noticed that when you download a MacOS app from the web, the installation experience can differ wildly? How have we not found a consistently reliable, user-friendly way of installing apps?
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Is it time to become a triangle shaped designer?"
-date:   2019-08-27 17:05:05 +0200
+date:   2019-08-27 15:05:05 +0200
 tags: [User Experience, Business,]
 categories: Linked
 ---
