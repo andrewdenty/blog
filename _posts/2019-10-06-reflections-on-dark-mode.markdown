@@ -27,7 +27,7 @@ Then I realised I was completely wrong.
 
 The fact that dark mode is being released in 2019, when most operating systems are essentially feature complete, demonstrates the exact opposite. There must have been so many times during the lifetime of Mac OS, Windows and iOS where dark mode has been bumped further down the backlog.
 
-Instead, these teams have focused on building genuinely useful features which help people focus and read. We have technologies to assist with reading and focus such as ‘do not disturb’, seamless screen scaling, night shift mode and reader mode in browsers. 
+Instead, these teams have focused on building genuinely useful features which help people focus and read. Because of this we can benefit from features such as ‘do not disturb’, seamless screen scaling, night shift mode and reader mode in browsers to name just a few. 
 
 My takeaway is that we’ve just reached the point where there are very few valuable new features left in the backlog. This is why 2019 is the year of dark mode.
 
