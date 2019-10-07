@@ -3,6 +3,7 @@ layout: post
 title:  "Do you want your user experience shaken or stirred? (When to include options in your software)"
 date:   2019-08-08 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
+image: /assets/img/options-illustration.png
 ---
 ![Abstract options]({{site.baseurl}}/assets/img/options-illustration.png)
 

@@ -3,6 +3,7 @@ layout: post
 title:  "The “tell me your job title” roadblock"
 date:   2016-01-26 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
+image: /assets/img/tell-me-your-job-title.png
 ---
 !["Stop! Before we can show you our products we need to know who you are."]({{site.baseurl}}/assets/img/tell-me-your-job-title.png)
 

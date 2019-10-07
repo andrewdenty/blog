@@ -3,6 +3,7 @@ layout: post
 title:  "Was this the first sign of Apple’s noughties Skuemorphism obsession?"
 date:   2016-06-21 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
+image: /assets/img/quicktime-4-skuemorphism.png
 ---
 ![Quicktime 4]({{site.baseurl}}/assets/img/quicktime-4-skuemorphism.png)
 

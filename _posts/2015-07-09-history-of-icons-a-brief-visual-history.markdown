@@ -3,6 +3,7 @@ layout: post
 title:  "History of Icons - a visual brief on icon history"
 date:   2015-07-09 15:31:49 +0200
 tags: [Graphic design, Design, User experience,]
+image: /assets/img/windows-3-clock-icon.png
 ---
 ![A problematic dialog box]({{site.baseurl}}/assets/img/windows-3-clock-icon.png)
 

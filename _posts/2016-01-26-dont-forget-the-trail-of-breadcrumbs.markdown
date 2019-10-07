@@ -3,6 +3,7 @@ layout: post
 title:  "Don’t forget the trail of breadcrumbs - navigating the Microsoft website."
 date:   2016-01-26 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
+image: /assets/img/microsoft-website-breadcrumbs.png
 ---
 ![Microsoft website lack of breadcrumbs]({{site.baseurl}}/assets/img/microsoft-website-breadcrumbs.png)
 

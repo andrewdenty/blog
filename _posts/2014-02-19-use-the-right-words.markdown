@@ -3,6 +3,7 @@ layout: post
 title:  "If you're building software, use the right words."
 date:   2014-02-19 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
+image: /assets/img/use-the-right-words.png
 ---
 ![A problematic dialog box]({{site.baseurl}}/assets/img/use-the-right-words.png)
 

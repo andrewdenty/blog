@@ -3,6 +3,7 @@ layout: post
 title:  "Why you should stop using Arial and Helvetica"
 date:   2014-02-19 15:31:49 +0200
 tags: [Typography, Design, Web design,]
+image: /assets/img/stop-using-arial-helvetica.png
 ---
 ![A problematic dialog box]({{site.baseurl}}/assets/img/stop-using-arial-helvetica.png)
 

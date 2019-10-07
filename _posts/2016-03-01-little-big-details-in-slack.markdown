@@ -3,6 +3,7 @@ layout: post
 title:  "Little big details in Slack"
 date:   2015-05-20 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design, Microinteractions]
+image: /assets/img/slack-message-hints.png
 ---
 ![A problematic dialog box]({{site.baseurl}}/assets/img/slack-message-hints.png)
 
