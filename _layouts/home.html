@@ -13,7 +13,35 @@ layout: default
 
         {%- if site.posts.size > 0 -%}
         <h2 class="post-list-heading">Thoughts on design</h2>
+
         <ul class="post-list">
+            {% for post in site.posts %}
+              <li>
+                <div class="row" style="">
+                            <div class="col-4 thumbnail" style="height: 180px;background-color:#f4f4f4; background-image: url('{{site.baseurl}}/{{ post.image }}');background-repeat: no-repeat;background-size:cover;background-position: center;">
+                            </div>
+                            <div class="col-8">
+                                  <a class="post-link" href="{{ post.url | relative_url }}">
+                                            <h3>
+                                                {{ post.title | escape }}
+                                            </h3>
+                             
+                                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                                        <span class="post-meta">{{ post.date | date: date_format }}</span>
+                                        </a>
+
+                                    {% endfor %}
+                                
+                                </div>
+                          </div>
+                
+              </li>
+        
+            
+
+          </ul>
+
+        <!--<ul class="post-list">
             {%- for post in site.posts -%}
             <li>
                 <a class="post-link" href="{{ post.url | relative_url }}">
@@ -26,7 +54,7 @@ layout: default
                     </a>
             </li>
             {%- endfor -%}
-        </ul>
+        </ul>-->
         {%- endif -%}
 
     </div>

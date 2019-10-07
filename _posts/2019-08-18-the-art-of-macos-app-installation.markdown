@@ -3,6 +3,7 @@ layout: post
 title:  "The art of Mac app installation"
 date:   2019-08-18 19:17:00 +0200
 tags: [User Experience, Simplicity, Design, MacOS, Interaction Design,]
+image: /assets/img/macos-installation-woes.png
 ---
 ![Abstract options]({{site.baseurl}}/assets/img/macos-installation-woes.png)
 

@@ -4,6 +4,7 @@ title:  "Linked - User experience vs. business goals: finding the balance"
 date:   2019-08-19 17:05:00 +0200
 tags: [User Experience, Business,]
 categories: Linked
+image: /assets/img/linked-post.png
 ---
 ![Linked post]({{site.baseurl}}/assets/img/linked-post.png)
 **Link** - [User experience vs. business goals: finding the balance (Ariel Verber on Medium)](https://uxdesign.cc/user-experience-vs-business-goals-finding-the-balance-7507ac85b0a9){:target="_blank"}
