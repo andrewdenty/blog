@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-list
 ---
 
 <div class="home">
@@ -13,24 +13,27 @@ layout: default
         {%- if site.posts.size > 0 -%}
         <h2 class="post-list-heading">Thoughts on design</h2>
 
-        <ul class="post-list">
+       <div class="row post-list">
             {% for post in site.posts %}
-            <li>
-                <a class="row postcard post-link" href="{{ post.url | relative_url }}" >
-                            <div class="col-sm-4 thumbnail" style="background-image: url('{{site.baseurl}}/{{ post.image }}')">
-                            </div>
-                            <div class="col-sm-8">
+          
+                <div class="col-md-6 d-flex mb-3 mt-3">
+                <a class="card" href="{{ post.url | relative_url }}" >
+                            <div class="thumbnail card-img-top" style="background-image: url('{{site.baseurl}}/{{ post.image }}')"></div>
+                            <div class="card-body">
                                             <h3>
                                                 {{ post.title | escape }}
                                             </h3>
                                             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                                         <span class="post-meta">{{ post.date | date: date_format }}</span>
-                                    {% endfor %}
+                                    
                                 </div>
                             </a>
-                        </a>
-              </li>
-          </ul>
+                            </div>
+                            {% endfor %}
+                        
+         
         {%- endif -%}
-
     </div>
+    </div>
+    </div>
+    <div class="spacer"></div>

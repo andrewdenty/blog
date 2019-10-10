@@ -21,15 +21,17 @@ a:visited {color: #707070;}
 .site-nav .page-link:hover {text-decoration:none; color: #F6714F; border-bottom: 1px dotted;}
 
 /*<!-- Post list page -->*/
-.post-link h3  {margin-top: 20px; margin-bottom:5px; line-height: 1.3;color:#212529;}
+.post-list-section {background-color:#f4f4f4;}
 .post-list li {margin-bottom:60px;margin-top:60px;}
 .post-list a {transition: 0.3s;}
 .post-list a:hover{border-bottom: none;}
-.post-list-heading {margin-bottom:80px;margin-top: 80px;}
+.post-list-heading {margin-bottom:40px;margin-top: 80px;}
 .post-link {font-size: 18px;}
 .post-meta {color:#707070;}
-.postcard {background-color: #fafafa;}
-.postcard:hover {box-shadow: 0px 0px 20px rgba(0,0,0,0.1);transition: all 0.3s ease-in-out;}
+.post-list .card {;width:100%;border:none;box-shadow: 0px 0px 10px rgba(0,0,0,0.1)}
+.post-list .card:hover {box-shadow: 0px 0px 30px rgba(0,0,0,0.3);transition: all 0.3s ease-in-out;}
+.post-list .card h3 {font-size: 20px;margin-top: 0px; margin-bottom:5px; line-height: 1.3;color:#212529;}
+.post-list .post-meta {font-weight:400;}
 
 .thumbnail {height: 160px;background-color:#f4f4f4;background-repeat: no-repeat;background-size:cover;background-position: center;}
 
@@ -69,5 +71,6 @@ a:visited {color: #707070;}
     div.page-header {padding-top:30px; padding-bottom:30px; }
     h1.post-title.p-name {margin-top:30px;}
     div.col-auto.p-3 {padding: 0.5rem!important;}
-    .thumbnail {height: 200px;}
+    .thumbnail {height: 220px;}
+    .post-list .card {max-width:450px;}
     }  
