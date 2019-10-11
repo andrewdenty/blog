@@ -3,7 +3,11 @@ layout: post
 title:  "What soft skills which are most important for UX Designers?"
 date:   2016-09-16 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
+image: /assets/img/designer-soft-skills.png
 ---
+
+![A problematic dialog box]({{site.baseurl}}/assets/img/designer-soft-skills.png)
+
 I’m at [UX Cambridge](https://uxcambridge.net/2016/) this week and have just attended a brilliant talk by [James Chudley](https://twitter.com/chudders) delving into the skills which determine why some UX designers are better than others.
 
 Chris and his colleagues cxpartners have developed what I think is a really good overview of the soft skills needed to become a truly exceptional UXer. Below are the skills he’s identified plus my understanding of what this is and why it’s important:
