@@ -4,13 +4,14 @@
 @import "{{ site.theme }}";
 body {font-family:"DM Sans", sans-serif;font-size: 18px;font-weight:500;color: #212529;}
 h1 {font-weight:400;}
-h2 {line-height: 1.4em;margin-top:30px;font-weight:700;}
-h3 {line-height: 1.8em;margin-top:40px; font-weight:700;font-size:28px;}
-.post-content h4 {font-weight:700;margin-top:60px; }
+h2 {line-height: 1.4em;margin-top:60px;font-weight:700;}
+.post-content h3 {line-height: 1.8em;margin-top:60px; font-weight:700;font-size:26px;}
+.post-content h4 {margin-top:40px;font-weight:700;}
 p, ul, ol {font-weight:500;max-width:800px;font-size:17px;}
 a {color: #707070;transition: 0.3s;}
 a:hover {text-decoration:none; color: #F6714F; border-bottom: 1px dotted;}
 a:visited {color: #707070;}
+.highlighter-rouge {color: #F6714F;}
 .site-title, .site-title:visited {font-weight: 600;font-size: 24px; color: #22bee3}
 .site-header {background-color:#fafafa;border:none;color:#707070;margin-top: 0px;margin-bottom:0px;padding-top:60px; padding-bottom: 60px;}
 .page-header {font-weight: 500;}
