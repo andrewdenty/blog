@@ -1,21 +1,21 @@
 ---
 layout: post
-title:  "Installing Pi-hole on Windows 10"
-date:   2020-01-24 19:34:03 +0200
-tags: [User Experience, Business, dark mode, iOS,]
-image: /assets/img/designer-soft-skills.png
+title:  "Install Pi-hole on Windows 10 and live ad-free forever"
+date:   2020-01-25 15:45:00 +0200
+tags: [Pi-hole, Ad-blocking, hacker project, Windows 10,]
+image: /assets/img/install-pihole-on-windows-10-using-docker.png
 ---
-![A problematic dialog box]({{site.baseurl}}/assets/img/designer-soft-skills.png)
+![A problematic dialog box]({{site.baseurl}}/assets/img/install-pihole-on-windows-10-using-docker.png)
 
 ### What is Pi-hole and why run it on Windows?
 
-[Pi-hole](https://pi-hole.net/){:target="_blank"} is hands-down best ad blocker available.  
+[Pi-hole](https://pi-hole.net/){:target="_blank"} is hands-down, the best ad blocker available.  
 
-This is because it acts as a network wide ad-blocker. This means it blocks ads on every single device on your network without any browser extensions clogging up your browser. It even blocks ads inside apps.  
+That's because it acts as a network wide ad-blocker. This means it blocks ads on every single device on your network without any browser extensions clogging up your browser. It even blocks ads inside apps.  
 
-What's more, unlike browser based ad-blockers which just prevent adverts from being displayed, Pi-hole speeds up your browsing experience as it blocks adverts from being downloaded in the first place. If that wasn't enough, it even prevents those annoying "it looks like you're using an ad-blocker pop-ups!".
+What's more, unlike browser based ad-blockers which just prevent ads from being displayed in your browser, Pi-hole speeds up your browsing experience as it blocks ads from being downloaded in the first place. If that wasn't enough, it even prevents those annoying "*it looks like you're using an ad-blocker*" pop-ups.
 
-All of these benefits did come with one major drawback though. It was originally designed to run on Raspberry Pis. So, unless you had a Raspberry Pi, or a computer running Linux, you were out of luck. However, it's now available for Docker. This means it can be installed on any device which will run Docker such as Macs or Windows PCs.
+All of these benefits did come with one major drawback though. It was originally designed to run on Raspberry Pis. So, unless you had a Raspberry Pi, or a computer running Linux, you were out of luck. However, it's now available for [Docker](https://www.docker.com){:target="_blank"}. This means it can be installed on any device which will run Docker, such as Windows PCs or Macs.
 
 I recently set up Pi-hole on my home network on a Windows PC and so far it's worked flawlessly.  
 
@@ -23,9 +23,9 @@ Anyway, here's a step by step guide to block ads on all of our devices by instal
 
 
 ### What you'll need
-A Windows 10 (Pro)PC which you’re happy to leave on all of the time. Preferably a power efficient, quiet PC. In my case I’m using an Intel NUC. Docker setting tweak.
+A Windows 10 PC (Pro or Enterprise edition) which you’re happy to leave on all of the time. Preferably a power efficient, quiet PC. In my case I’m using an Intel NUC.
 
-You can also install Pi-hole on MacOS using a similar process to the one described below.
+If you have a Mac, you can also install Pi-hole on MacOS using a similar process to the one described below.
 
 ### Step by step instructions
 
@@ -34,13 +34,13 @@ You can also install Pi-hole on MacOS using a similar process to the one describ
 #### Step 2 - Install Docker
 Install Docker, keeping “enable required Windows Features” selected as Docker needs Microsoft Hyper-V which is not enabled by default. 
 
-Avoid clicking the “Use Windows Containers” option - Pi-hole will require Linux containers which is the default. 
+Avoid clicking the “Use Windows Containers” option. Pi-hole will require Linux containers which is the default. 
 
 ![Installing Docker for Windows Desktop]({{site.baseurl}}/assets/img/1-install-docker-windows.png)
 #### Step 3 - Configure Docker
 When docker is installed the first thing  you will need to do is sign in. Docker lives in the task bar notification area. 
 
-After signing in I recommend tweaking some settings in Docker. You can access docker settings from the docker menu in the task bar tray. I reduced the available Memory to 1GB. Pi-hole doesn’t actually need 2Gb, so I reducing it to 1gb frees up more memory for your PC. Click ‘Apply and restart’
+After signing in I recommend tweaking some settings in Docker. You can access docker settings from the docker menu in the task bar tray. I reduced the available Memory to 1GB. Pi-hole doesn’t actually need 2GB, so reducing it to 1GB frees up more memory for your PC. Click ‘Apply and restart’.
 
 ![Installing Docker for Windows Desktop]({{site.baseurl}}/assets/img/2-docker-windows-resources-configuration.png)
 #### Step 4 - Download Pi-hole
@@ -73,7 +73,11 @@ Open command prompt as an administrator again and paste in your customised comma
 
 #### Step 8 - Check Pi-hole is up and running
 
-Go to your web browser and type - (http://127.17.0.1/admin/){:target="_blank"} or http://localhost/admin/  you should see the Pi-hole admin console. This means you’re up and running!
+Go to your web browser and type - [http://127.17.0.1/admin/](http://127.17.0.1/admin/){:target="_blank"} or http://localhost/admin/  you should see the Pi-hole admin console. This means you’re up and running!
+
+![Pi-hole admin interface]({{site.baseurl}}/assets/img/4-pi-hole-admin-console.png)
+
+The Pi-hole admin console lets you configure the advanced settings of Pi-hole, see which domains have been blocked as well as  blacklisting or whitelisting new domains.
 
 #### Step 9 - Configure your router
 The final step is to change the DNS server on your router to point to your PC. In my case this is ```172.16.154.130```. This will ensure all of the devices on your network get Pi-hole’s ad blocking magic.
