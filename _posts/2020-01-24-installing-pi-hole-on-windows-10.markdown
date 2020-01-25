@@ -60,11 +60,12 @@ Now Docker is running and Pi-hole is downloaded we can configure and start it. Y
 
 ```docker run -d --name pihole -e ServerIP=172.16.154.130 -e WEBPASSWORD=password -e TZ=Europe/Copenhagen -e DNS1=127.0.0.1 -e DNS2=1.1.1.1 -e DNS3=1.0.0.1 -p 80:80 -p 53:53/tcp -p 53:53/udp -p 443:443 --restart=unless-stopped pihole/pihole:latest```
 
-You will need to replace: 
+**You will need to replace:** 
 - ```ServerIP``` with your IP address
 - ```WEBPASSWORD``` with a password of your choosing (you’ll use this to access Pi-hole’s settings)
+- ```TZ=``` this is optional. You can specify your timezone in the [TZ format](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones){:target="_blank"}
 
-This will get you up and running, however if you want to customise how Pi-hole works, there are a [number of variables you can set as part of this script](https://github.com/pi-hole/docker-pi-hole#environment-variables){:target="_blank"}.
+The base script above will get you up and running, however if you want to customise how Pi-hole works, there are a [number of variables you can set as part of this script](https://github.com/pi-hole/docker-pi-hole#environment-variables){:target="_blank"}.
 
 You'll also find more information and documentation on the [Docker Pi-hole Docker Github page](https://github.com/pi-hole/docker-pi-hole){:target="_blank"}. 
 
