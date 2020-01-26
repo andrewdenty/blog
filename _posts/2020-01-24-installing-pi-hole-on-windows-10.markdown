@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Install Pi-hole on Windows 10 and live ad-free forever"
 date:   2020-01-25 15:45:00 +0200
 tags: [Pi-hole, Ad-blocking, hacker project, Windows 10,]

@@ -3,6 +3,7 @@ layout: post
 title:  "Do you want your user experience shaken or stirred?"
 date:   2019-08-08 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
+comments: true
 image: /assets/img/options-illustration.png
 ---
 ![Abstract options]({{site.baseurl}}/assets/img/options-illustration.png)

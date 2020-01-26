@@ -3,6 +3,7 @@ layout: post
 title:  "Linked - User experience vs. business goals: finding the balance"
 date:   2019-08-19 17:05:00 +0200
 tags: [User Experience, Business,]
+comments: true
 categories: Linked
 image: /assets/img/linked-post-thumb.png
 ---

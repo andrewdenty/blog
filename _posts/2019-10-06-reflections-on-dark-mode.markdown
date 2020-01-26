@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Reflections on dark mode"
+comments: true
 date:   2019-10-06 19:34:03 +0200
 tags: [User Experience, Business, dark mode, iOS,]
 image: /assets/img/dark-mode.jpg
