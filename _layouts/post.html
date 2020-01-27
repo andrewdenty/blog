@@ -25,47 +25,12 @@ comments: true
     <div class="spacer"></div>
       <h3>More posts </h3>
     {% if page.previous.url %}
-        <a class="prev" href="{{ page.previous.url | relative_url }}">&laquo; {{page.previous.title | truncatewords: 8 }}</a>
+        <a class="prev" href="{{ page.previous.url | relative_url }}">&laquo; {{page.previous.title | truncatewords: 7 }}</a>
     {% endif %}
     {% if page.next.url %}
-        <a class="next" href="{{ page.next.url | relative_url }}">{{page.next.title | truncatewords: 8 }} &raquo;</a>
+        <a class="next" href="{{ page.next.url | relative_url }}">{{page.next.title | truncatewords: 7 }} &raquo;</a>
     {% endif %}
-  
     <div class="spacer"></div>
   </div>
 
-
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-
-  {% if page.comments %} 
-  <div class="footer-line"></div>
-  <h3 class="post-content">Leave a reply</h3>
-  <div id="disqus_thread"></div>
-  <script>
-  
-  /**
-  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  /*
-  var disqus_config = function () {
-  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function() { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
-  s.src = 'https://andrewdenty.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  {% endif %}
-
-
-<script id="dsq-count-scr" src="//andrewdenty.disqus.com/count.js" async></script>
+  {%- include comments.html -%}
