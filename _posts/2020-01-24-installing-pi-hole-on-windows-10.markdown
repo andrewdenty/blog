@@ -89,7 +89,7 @@ The final step is to change the DNS server on your router to point to your PC. I
 Congratulations! At this point, provided everything has worked you should have an ad-free home!
 
 ### FAQs
-When I shared this post on [Reddit](https://www.reddit.com/r/pihole/comments/eu6qnj/installing_pihole_using_docker_on_windows_10/){:target="_blank"} I got a ton of really useful feedback and questions, so I’ve put together a short FAQ section:
+When I shared this post on [Reddit](https://www.reddit.com/r/pihole/comments/eu6qnj/installing_pihole_using_docker_on_windows_10/){:target="_blank"} I got lots of really useful feedback and questions, so I’ve put together a short FAQ section:
 
 #### Does the PC have to be connected via an ethernet connection?
 At first I thought this would be a problem, but apparently not. My setup works really well over WiFi. Because of where my PC is located in my apartment it’s pretty much impossible for it to use a wired connection. Like always ethernet is preferable though.
