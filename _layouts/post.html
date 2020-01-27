@@ -19,22 +19,23 @@ comments: true
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+</article>
 
   <div class="PageNavigation">
     <div class="spacer"></div>
-      <h4>More posts </h4>
+      <h3>More posts </h3>
     {% if page.previous.url %}
         <a class="prev" href="{{ page.previous.url | relative_url }}">&laquo; {{page.previous.title | truncatewords: 8 }}</a>
     {% endif %}
     {% if page.next.url %}
         <a class="next" href="{{ page.next.url | relative_url }}">{{page.next.title | truncatewords: 8 }} &raquo;</a>
     {% endif %}
+  
     <div class="spacer"></div>
-    <div class="footer-line"></div>
   </div>
 
 
-<h3 class="post-content">Leave a reply</h3>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
@@ -42,6 +43,8 @@ comments: true
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
   {% if page.comments %} 
+  <div class="footer-line"></div>
+  <h3 class="post-content">Leave a reply</h3>
   <div id="disqus_thread"></div>
   <script>
   
@@ -64,5 +67,5 @@ comments: true
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   {% endif %}
 
-</article>
+
 <script id="dsq-count-scr" src="//andrewdenty.disqus.com/count.js" async></script>
