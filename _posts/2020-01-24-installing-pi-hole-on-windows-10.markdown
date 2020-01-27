@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Install Pi-hole on Windows 10 and live ad-free forever"
 date:   2020-01-25 15:45:00 +0200
-tags: [Pi-hole, Ad-blocking, hacker project, Windows 10,]
+tags: [Pi-hole, Docker, Ad-blocking, hacker project, Windows 10,]
 image: /assets/img/install-pihole-on-windows-10-using-docker.png
 ---
 ![A problematic dialog box]({{site.baseurl}}/assets/img/install-pihole-on-windows-10-using-docker.png)
@@ -43,7 +43,7 @@ When docker is installed the first thing  you will need to do is sign in. Docker
 
 After signing in I recommend tweaking some settings in Docker. You can access docker settings from the docker menu in the task bar tray. I reduced the available Memory to 1GB. Pi-hole doesn’t actually need 2GB, so reducing it to 1GB frees up more memory for your PC. Click ‘Apply and restart’.
 
-![Installing Docker for Windows Desktop]({{site.baseurl}}/assets/img/2-docker-windows-resources-configuration.png)
+![Docker for Windows rescource settings]({{site.baseurl}}/assets/img/2-docker-windows-resources-configuration.png)
 #### Step 4 - Download Pi-hole
 To download the Pi-hole container, open Windows Command Prompt as an administrator and type the following command: ```docker pull pihole/pihole``` 
 #### Step 5 - Give your PC a static IP address
@@ -53,7 +53,7 @@ Next, let’s ensure our PC has a static IP address. This will ensure other devi
 - I recommend increasing the last number of your IP address by 50 or so to make IP address conflicts less likely on your network. For example, if your IP address was 192.168.0.5 try 192.168.0.55.  
 - For DNS settings, use the IP address of your machine you have just set and for an alternative use ```1.1.1.1.``` (this is [Cloudflare's DNS service](https://1.1.1.1/dns/){:target="_blank"}).
 
-![Installing Docker for Windows Desktop]({{site.baseurl}}/assets/img/3-windows-change-to-static-ip.png)
+![Windows 10 IP address settings]({{site.baseurl}}/assets/img/3-windows-change-to-static-ip.png)
 
 #### Step 6 - create a customized Docker command
 Now Docker is running and Pi-hole is downloaded we can configure and start it. You will need to customise your script. Here’s a base:
@@ -65,6 +65,8 @@ Now Docker is running and Pi-hole is downloaded we can configure and start it. Y
 - ```ServerIP``` with your IP address
 - ```WEBPASSWORD``` with a password of your choosing (you’ll use this to access Pi-hole’s settings)
 - ```TZ=``` this is optional. You can specify your timezone in the [TZ format](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones){:target="_blank"}
+
+Note: ```DNS1``` needs to be left as ```127.0.0.1``` in order for Pi-hole to work. If you're curious, 127.0.0.1 is the IP address for Localhost (or in other words *this computer*). You can change ```DNS2``` and ```DNS3``` to whatever you like.
 
 The base script above will get you up and running, however if you want to customise how Pi-hole works, there are a [number of variables you can set as part of this script](https://github.com/pi-hole/docker-pi-hole#environment-variables){:target="_blank"}.
 
@@ -83,3 +85,24 @@ The Pi-hole admin console lets you configure the advanced settings of Pi-hole, s
 
 #### Step 9 - Configure your router
 The final step is to change the DNS server on your router to point to your PC. In my case this is ```172.16.154.130```. This will ensure all of the devices on your network get Pi-hole’s ad blocking magic.
+
+Congratulations! At this point, provided everything has worked you should have an ad-free home!
+
+### FAQs
+When I shared this post on [Reddit](https://www.reddit.com/r/pihole/comments/eu6qnj/installing_pihole_using_docker_on_windows_10/){:target="_blank"} I got a ton of really useful feedback and questions, so I’ve put together a short FAQ section:
+
+#### Does the PC have to be connected via an ethernet connection?
+At first I thought this would be a problem, but apparently not. My setup works really well over WiFi. Because of where my PC is located in my apartment it’s pretty much impossible for it to use a wired connection. Like always ethernet is preferable though.
+
+#### Can I do this on MacOS?
+Yes - you absolutely can. The process is very similar. I’ve tested this on Mac OS Catalina and it works.
+
+
+#### Why use Docker and not just a Linux Virtual Machine (VM)?
+This could be a whole article, but in a nutshell Docker is easier to set up and maintain compared to a VM. With a VM you need to ensure your Linux installation is correctly configured and kept up to date. This takes time, and in the case where you encounter a problem, reinstalling everything takes a long time. Whereas using Docker, Pi-hole is kept in an isolated container and Docker takes care of everything else. What’s more all of the configuration settings are kept in your Docker script, so you can easily delete the container and recreate it if you run into problems.
+
+#### What if the Pi-hole stops working, or I restart my PC?
+Restarting your PC is not a problem. By default Docker for Windows is configured to run automatically when you start your PC and the ```--restart=unless-stopped``` string in the Docker script I’ve provided means your Pi-hole Docker container will automatically start up. Your internet will also continue to work if your PC is turned off as you can specify a secondary DNS server on your router. In this case your router will simply use this backup DNS server if your Pi-hole is unreachable. 
+
+#### Can I install this on Windows 10 Home Edition?
+Not easily. Docker for Windows relies on using Hyper-V, a virtualisation technology only included in Windows 10 Pro or Enterprise. For this reason it’s not straightforward to install Docker on Windows 10 Home. It is technically possible, but it does require you to jump through a lot of hoops. Mark Cameron wrote a guide on [Installing Docker on Windows 10 Home](https://medium.com/@mbyfieldcameron/docker-on-windows-10-home-edition-c186c538dff3){:target="_blank"}  which might help. 
