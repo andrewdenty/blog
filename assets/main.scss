@@ -9,8 +9,8 @@ h2 {line-height: 1.4em;margin-top:60px;font-weight:700;}
 .post-content h3 {line-height: 1.8em;margin-top:60px;margin-bottom: 10px; font-weight:700;font-size:26px;}
 .post-content h4 {margin-top:40px;font-weight:700;}
 p, ul, ol {font-weight:500;max-width:800px;font-size:17px;}
-a {color: #707070;transition: 0.3s;}
-a:hover {text-decoration:none; color: #F6714F; border-bottom: 1px dotted;}
+a {color: #707070;transition: 0.2s;border-bottom: #b6b6b6 1px solid;}
+a:hover {text-decoration:none; color: #F6714F; border-bottom: 1px solid;}
 a:visited {color: #707070;}
 .highlighter-rouge {color: #F6714F;}
 .site-title, .site-title:visited {font-weight: 600;font-size: 24px; color: #22bee3}
@@ -20,7 +20,7 @@ a:visited {color: #707070;}
 .post p {font-weight:400;margin-block-end: 25px;}
 .post img{margin-bottom:40px;}
 .site-nav .page-link {color:#707070;}
-.site-nav .page-link:hover {text-decoration:none; color: #F6714F; border-bottom: 1px dotted;}
+.site-nav .page-link:hover {text-decoration:none; color: #F6714F; border-bottom: 1px solid;}
 
 /*<!-- Post list page -->*/
 .post-list-section {background-color:#f4f4f4;}
@@ -53,6 +53,7 @@ a:visited {color: #707070;}
     width: 50%;
     float: left;
     margin: 1em 0;
+    border-bottom: none;
   }
   
   .PageNavigation a:hover {
