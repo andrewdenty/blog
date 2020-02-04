@@ -22,6 +22,12 @@ url: "https://www.andrewdenty.com" # the base hostname & protocol for your site,
 twitter_username: andrewdenty
 github_username:  andrewdenty
 
+# Disqus Comments
+disqus:
+# Leave shortname blank to disable comments site-wide.
+# Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+shortname: andrewdenty
+
 plugins:
   - jekyll-paginate
 paginate: 5
