@@ -106,3 +106,20 @@ Restarting your PC is not a problem. By default Docker for Windows is configured
 
 #### Can I install this on Windows 10 Home Edition?
 Not easily. Docker for Windows relies on using Hyper-V, a virtualisation technology only included in Windows 10 Pro or Enterprise. For this reason it’s not straightforward to install Docker on Windows 10 Home. It is technically possible, but it does require you to jump through a lot of hoops. Mark Cameron wrote a guide on [Installing Docker on Windows 10 Home](https://medium.com/@mbyfieldcameron/docker-on-windows-10-home-edition-c186c538dff3){:target="_blank"}  which might help. 
+
+#### How to update Pi-hole on Docker
+Occasionally you will notice in the Pi-hole admin interface that a new version is available.
+
+With Docker you don’t update the installed version of Pi-hole, but rather delete it and reinstall it with the variables you created in your customized docker command. This is essentially has the same effect as upgrading, but ensures you have a clean, new environment each time.
+
+In order to do this, head to the ‘Docker dashboard’. You can access the dashboard from the docker menu in the Windows notification tray. Once you’re in the Docker dashboard, click the delete icon next to your Pi-hole container. This will stop and delete the docker container. 
+
+The next step is to head to an elevated Command Prompt and type:
+
+```docker image prune -a```
+
+This command clears out the Docker cache and all unused images (i.e. the out of date version of Pi-hole).
+
+Once this has completed, you can reinstall Pi-hole using the instructions in this article. 
+
+Essentially all you have to do is run ```docker pull pihole/pihole``` in the Command Prompt, and when it has completed downloading, run your customized docker command to restore your Pi-hole instance. Congratulations, you should now be running the latest version of Pi-hole!
