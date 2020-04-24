@@ -6,7 +6,7 @@ date:   2020-01-25 15:45:00 +0200
 tags: [Pi-hole, Docker, Ad-blocking, hacker project, Windows 10,]
 image: /assets/img/install-pihole-on-windows-10-using-docker.png
 ---
-![A problematic dialog box]({{site.baseurl}}/assets/img/install-pihole-on-windows-10-using-docker.png)
+![Pi-hole on Windows 10]({{site.baseurl}}/assets/img/install-pihole-on-windows-10-using-docker.png)
 
 ### What is Pi-hole and why run it on Windows?
 
@@ -123,3 +123,6 @@ This command clears out the Docker cache and all unused images (i.e. the out of 
 Once this has completed, you can reinstall Pi-hole using the instructions in this article. 
 
 Essentially all you have to do is run ```docker pull pihole/pihole``` in the Command Prompt, and when it has completed downloading, run your customized docker command to restore your Pi-hole instance. Congratulations, you should now be running the latest version of Pi-hole!
+
+#### What is this set-up like to use on a daily basis?
+See my follow up post where I share my experiences after four months [Review: living with Pi-hole on Windows 10]({{site.baseurl}}/2020/04/24/review-living-with-pi-hole-on-windows-10.html).
