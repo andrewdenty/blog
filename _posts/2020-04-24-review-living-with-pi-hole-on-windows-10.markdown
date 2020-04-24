@@ -21,7 +21,7 @@ Having said that, Ad blocking is arguably a commoditised feature at this point a
 
 In my experience, Pi-hole is 100% effective at bypassing Ad blocker detection.  I’ve seen absolutely no “Ad blocker detected” pop-ups when browsing the since switching to Pi-hole. 
 
-Below is an example of the same page when viewed using AdblockerPlus (left) and Pi-hole (right):
+Below is an example of the same page when viewed using Pi-hole (left) and AdblockerPlus (right):
 
 ![The same page viewed using AdblockerPlus and Pi-hole]({{site.baseurl}}/assets/img/pi-hole-vs-adblock-plus.png)
 The other main advantage of Pi-hole over other ad blockers is it’s ability to work on all devices on your network. While Android and iOS now support ad blocking functionality through apps and ad-ons, in my experience it’s always been a clunky experience that doesn’t work everywhere. Also, with this approach you’re effectively trusting a 3rd party commercial app with all of your browsing data. 
