@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Review: living with Pi-hole on Windows 10"
+title:  "Review: Pi-hole on Windows 10"
 date:   2020-04-24 14:49:00 +0200
 tags: [Pi-hole, Docker, Ad-blocking, hacker project, Windows 10,]
 image: /assets/img/review-living-with-pi-hole-on-windows-10.png
