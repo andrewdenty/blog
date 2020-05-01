@@ -73,7 +73,7 @@ Windows 10 is infamous for its updates. Whether you think this is a good, or a b
 
 It is possible to get round this problem however as Microsoft supports a [method for automatically logging on to Windows 10](https://support.microsoft.com/en-us/help/324737/how-to-turn-on-automatic-logon-in-windows){:target="_blank"}. The obvious trade-off with this approach is your PC is no longer secure. Anyone can effectively access your PC by simply turning it off and on again. If this wasn’t bad enough, your password is stored in the Windows registry as plain text. I haven’t enabled this and have opted to put up with the minor inconvenience of occasionally signing into your PC again. I recommend using Windows Remote Desktop to do this. This lets me sign in from whichever device I’m using at the time.
 
-#### Google Shopping and Adverts on Google.
+#### Google Shopping and Adverts on Google
 
 This may sound kind of obvious, but Google Shopping and any paid for link on Google will no longer work. This is also the case for services such as Google Analytics, or other B2B analytics services. Although this is exactly what I expected, I often found it surprising as I tend to forget that Pi-hole is running in the background. This can be kind of frustrating. but I have a workaround. Using a VPN service. I use a VPN ([Express VPN](https://www.expressvpn.com/){:target="_blank"}) quite frequently as I’m a Brit living in Denmark and it’s really convenient to be able to visit UK only websites.
 
