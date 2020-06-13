@@ -44,6 +44,8 @@ When docker is installed the first thing  you will need to do is sign in. Docker
 After signing in I recommend tweaking some settings in Docker. You can access docker settings from the docker menu in the task bar tray. I reduced the available Memory to 1GB. Pi-hole doesn’t actually need 2GB, so reducing it to 1GB frees up more memory for your PC. Click ‘Apply and restart’.
 
 ![Docker for Windows rescource settings]({{site.baseurl}}/assets/img/2-docker-windows-resources-configuration.png)
+**Update June 2020** - If you don't see these options, just skip to step 4. Docker is releasing a new version with a technology called WSL 2. This is a new way of emulating Linux within Windows and replaces the existing Hyper-V setup. The main advantage is that WSL 2 uses less resources and dynamically uses memory instead of preassigning a chunk of your PC's memory. This means there is now nothing to configure. You can read more about it on the [Docker website](https://docs.docker.com/docker-for-windows/wsl/){:target="_blank"}.
+
 #### Step 4 - Download Pi-hole
 To download the Pi-hole container, open Windows Command Prompt as an administrator and type the following command: ```docker pull pihole/pihole``` 
 #### Step 5 - Give your PC a static IP address
@@ -126,3 +128,11 @@ Essentially all you have to do is run ```docker pull pihole/pihole``` in the Com
 
 #### What is this set-up like to use on a daily basis?
 See my follow up post where I share my experiences after four months [Review: living with Pi-hole on Windows 10]({{site.baseurl}}/2020/04/24/review-living-with-pi-hole-on-windows-10.html).
+
+#### Pi-hole keeps crashing - what's going on? (updated June 2020)
+In the latest version of Pi-hole (version 5.0) there is a bug which can cause Pi-hole to crash meaning you're left without an ad-blocker or DNS server. I haven't run into this myself, and I'm running Pi-hole 5.0 on Docker with no problems. However, if you do have problems Angel-Panda Diaz has helpfully shared a workaround which may prevent this problem. This workaround increases the size of the Docker container's shared memory (SHM) to 5 gigabytes. I haven't attempted this workaround myself, but let me know if it helps!
+
+If you're experiencing crashing, try the following script:
+```docker run -d --name pihole -e ServerIP=172.16.154.130 -e WEBPASSWORD=password -e TZ=Europe/Copenhagen -e DNS1=127.17.0.1 -e DNS2=1.1.1.1 -e DNS3=1.0.0.1 -p 80:80 -p 53:53/tcp -p 53:53/udp -p 443:443 --shm-size="5g" --restart=unless-stopped pihole/pihole:latest```
+
+I'll update this post when this bug is fixed.
