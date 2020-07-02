@@ -17,7 +17,7 @@ All of the screenshots below are taken on a default install of macOS and the Cat
 
 ## First impressions
 {% include image-gallery.html folder="/img/macos-new-ui/general/" %}
-At first glace macOS is a lot more colourful with, and the biggest obvious change is the bright, slightly more cartoonish iOS shaped icons. One interesting tidbit, is that even though the icons are based around the capsule shape, many of them (like Contacts, or Preview) have elements which protrude from them giving an extra feeling of depth.
+At first glance macOS is a lot more colourful with, and the biggest obvious change is the bright, slightly more cartoonish iOS shaped icons. One interesting tidbit, is that even though the icons are based around the capsule shape, many of them (like Contacts, or Preview) have elements which protrude from them giving an extra feeling of depth.
 
 ## Finder and Preview
 Finder sees some significant changes. Of all the places I think Apple needs to get the new UI spot on, is Finder. Overall the default size of Finder seems to be bigger in macOS Big Sur.
