@@ -17,7 +17,7 @@ All of the screenshots below are taken on a default install of macOS and the Cat
 
 ## First impressions
 {% include image-gallery.html folder="/img/macos-new-ui/general/" %}
-At first glance macOS is a lot more colourful with, and the biggest obvious change is the bright, slightly more cartoonish iOS shaped icons. One interesting tidbit, is that even though the icons are based around the capsule shape, many of them (like Contacts, or Preview) have elements which protrude from them giving an extra feeling of depth.
+At first glance macOS is a lot more colourful with, and the biggest obvious change is the bright, slightly more cartoonish iOS shaped icons. Everything is more rounded and it feels like everything has gotten a little bigger. Could this be the first hint that macOS is preparing for touch support in the future? One interesting tidbit, is that even though the icons are based around the capsule shape, many of them (like Contacts, or Preview) have elements which protrude from them giving an extra feeling of depth.
 
 ## Finder and Preview
 Finder sees some significant changes. Of all the places I think Apple needs to get the new UI spot on, is Finder. Overall the default size of Finder seems to be bigger in macOS Big Sur.
@@ -50,11 +50,15 @@ I will try and get better screenshots for this section and update it in the near
 ## Safari
 {% include image-gallery.html folder="/img/macos-new-ui/safari/" %}
 
-## Calendar
+## Calendar and Contacts
 {% include image-gallery.html folder="/img/macos-new-ui/calendar/" %}
 
 ## Reminders
 {% include image-gallery.html folder="/img/macos-new-ui/reminders/" %}
+
+## Notes
+The biggest news in Notes is that after years, the Skeuomorphic paper texture has finally been retired!
+{% include image-gallery.html folder="/img/macos-new-ui/notes/" %}
 
 ## Photos
 {% include image-gallery.html folder="/img/macos-new-ui/photos/" %}
@@ -68,7 +72,7 @@ For me this illustrates a bigger point that [Steven Sinofsky recently made on Tw
 One area where changes are evident are is in preferences windows. Both apps make use of Apple's new accent colour and new glyph icon library. 
 
 ## Other bundled apps
-It was impossible to go into depth with every single bundled app. On the whole, the updates to Maps, Mail and Notes all look solid with extensive use of the new sidebar. When I've had time to use Mail and Notes a little more I will update this post.
+It was impossible to go into depth with every single bundled app. On the whole, the updates to Maps, Books and Mail all look solid with extensive use of the new sidebar.
 {% include image-gallery.html folder="/img/macos-new-ui/other-apps/" %}
 
 ## Utilities
