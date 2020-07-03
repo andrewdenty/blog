@@ -90,7 +90,7 @@ Siri in macOS Big Sur shows no apparent changes. I think this is a little strang
 
 The most extreme case of no change is Stickies. It's completely identical between both releases. What's more, I don't think it's changed much since MacOS 9 judging from its weird, retro controls.
 {% include image-gallery.html folder="/img/macos-new-ui/unchanged/" %}
-Bootcamp is also practically unchanged, although this is perhaps unsurprising given Apple's move to Apple Silicon, so presumably Bootcamp's days are numbered. It did receive a new icon though.
+Boot Camp is also practically unchanged, although this is perhaps unsurprising given Apple's move to Apple Silicon, so presumably Boot Camp's days are numbered. It did receive a new icon though.
 
 ## Takeaways
 Overall, the UI changes in macOS aren’t as dramatic as I was expecting. Big Sur’s new UI feels like a largely incremental set of changes to make macOS feel more coherent with iOS and iPad OS. Even if there are a few teething issues and the look is a little jarring at first, this has to be a good thing in the long-term.
