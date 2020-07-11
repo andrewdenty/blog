@@ -12,6 +12,10 @@ p, ul, ol {font-weight:500;max-width:800px;font-size:17px;}
 a {color: #707070;transition: 0.2s;border-bottom: #b6b6b6 1px solid;}
 a:hover {text-decoration:none; color: #F6714F; border-bottom: 1px solid;}
 a:visited {color: #707070;}
+
+/*<!-- terrible hack for lightbox images -->*/
+.post img {background: #ffffff;}
+
 .highlighter-rouge {color: #F6714F;}
 .site-title, .site-title:visited {font-weight: 600;font-size: 24px; color: #22bee3}
 .site-header {background-color:#fafafa;border:none;color:#707070;margin-top: 0px;margin-bottom:0px;padding-top:60px; padding-bottom: 60px;}

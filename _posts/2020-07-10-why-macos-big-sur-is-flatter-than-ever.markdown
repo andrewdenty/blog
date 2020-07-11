@@ -8,7 +8,9 @@ image: /assets/img/why-macos-big-sur-is-flatter-than-ever.png
 ---
 ![Catalina vs Big Sur]({{site.baseurl}}/assets/img/why-macos-big-sur-is-flatter-than-ever.png)
 
-Forget skeuomorphism, or even the newly coined “neumorphism”. macOS Big Sur is flatter than ever.
+Forget skeuomorphism, or even the newly coined “neumorphism”. 
+
+macOS Big Sur is flatter than ever.
 
 In the last few weeks there have been a lot of suggestions that this is the start of a [new “fun” era of visual design](https://applypixels.com/blog/comeback){:target="_blank"}, or that Apple is returning to skeuomorphism, or even a new thing called [neumorphism](https://www.inputmag.com/design/apple-macos-big-sur-the-rise-of-neumorphism){:target="_blank"}.
 
@@ -20,11 +22,11 @@ stitched leather. This is why.
 
 Since the unveiling of macOS Big Sur a lot has been made of its new iOS shaped icon set. Everyone seems to either love or hate the new icon set. 
 
-![macOS Big Sur icons]({{site.baseurl}}/assets/img/macos-flat/macos-big-sur-icons.jpg)
+[![macOS Big Sur icons]({{site.baseurl}}/assets/img/macos-flat/macos-big-sur-icons.jpg)]({{site.baseurl}}/assets/img/macos-flat/macos-big-sur-icons.jpg)
 
 Don’t be mislead by the icons - macOS icons have always been richer and more detailed than iOS icons. This is down to the fact that desktop interfaces tend to be more detailed as desktop users tend to less distracted compared to mobile users. In short, for as long as technology has allowed, macOS icons have been rich, detailed and realistic looking. If you don't believe me, these are a selection of macOS Catalina's icons:
 
-![Detailed macOS Catalina icons]({{site.baseurl}}/assets/img/macos-flat/depth-in-macos-catalina.png)
+[![Detailed macOS Catalina icons]({{site.baseurl}}/assets/img/macos-flat/depth-in-macos-catalina.png)]({{site.baseurl}}/assets/img/macos-flat/depth-in-macos-catalina.png)
 
 The new icon set in Big Sur is simply a convergence of the existing highly detailed macOS icons with the consistent shape of iOS icons. During the WWDC 20 keynote, Alan Dye, Apples VP of Human Interface explained the rationale behind the new icons:
 
@@ -32,7 +34,7 @@ The new icon set in Big Sur is simply a convergence of the existing highly detai
 
 It’s also worth remembering that in many places the icons in macOS are simpler than before as Apple is porting its symbol library from iOS. This means that in many places, existing detailed icons have become simple, monochrome 2D symbols.
 
-![Icons in Podcast app's preferences]({{site.baseurl}}/assets/img/macos-new-ui/apple-music-podcasts/5-podcasts-preferences-macos-catalina-big-sur-comparison.png)
+[![Icons in Podcast app's preferences]({{site.baseurl}}/assets/img/macos-new-ui/apple-music-podcasts/5-podcasts-preferences-macos-catalina-big-sur-comparison.png)]({{site.baseurl}}/assets/img/macos-new-ui/apple-music-podcasts/5-podcasts-preferences-macos-catalina-big-sur-comparison.png)
 
 
 ### Big Sur is flatter than ever
@@ -41,11 +43,11 @@ This may surprise a few people, but if you look at the user interfaces in macOS 
 
 Actually, you’ll see a lot of the detail, texture and shadows have been removed. As a whole, macOS Big Sur’s interface is cleaner and more minimalist than ever. One of the aspects I’ve noticed most is there tends to be less contrast between UI elements. Apple has also completely dropped the aluminium inspired window chromes which can be traced back to Quicktime in the 1990s.
 
-![Detailed macOS Catalina icons]({{site.baseurl}}/assets/img/macos-flat/finder-toolbar-comparison.png)
+[![Comparison of Finder toolbars between macOS Catalina and Big Sur]({{site.baseurl}}/assets/img/macos-flat/finder-toolbar-comparison.png)]({{site.baseurl}}/assets/img/macos-flat/finder-toolbar-comparison.png)
 
 Take for example the notes app. The faux-paper texture has finally been completely removed. The toolbar buttons no longer have containers and there is no background separator between the toolbar and writing area. 
 
-![Detailed macOS Catalina icons]({{site.baseurl}}/assets/img/macos-flat/notes-compared.png)
+[![Comparison of Notes app between macOS Catalina and Big Sur]({{site.baseurl}}/assets/img/macos-flat/notes-compared.png)]({{site.baseurl}}/assets/img/macos-flat/notes-compared.png)
 
 
 ### If anything the design trend is convergence with iOS
