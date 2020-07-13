@@ -8,23 +8,23 @@ image: /assets/img/why-macos-big-sur-is-flatter-than-ever.png
 ---
 ![Catalina vs Big Sur]({{site.baseurl}}/assets/img/why-macos-big-sur-is-flatter-than-ever.png)
 
-Forget skeuomorphism, or even the newly coined “neumorphism”. 
+Forget skeuomorphism, or even the newly coined neumorphism. 
 
 macOS Big Sur is flatter than ever.
 
-In the last few weeks there have been a lot of suggestions that this is the start of a [new “fun” era of visual design](https://applypixels.com/blog/comeback){:target="_blank"}, or that Apple is returning to skeuomorphism, or even a new thing called [neumorphism](https://www.inputmag.com/design/apple-macos-big-sur-the-rise-of-neumorphism){:target="_blank"}.
+In the last few weeks there have been a lot of suggestions that this is the start of a [new “fun” era of visual design](https://applypixels.com/blog/comeback){:target="_blank"} and that Apple is returning to skeuomorphism, or even a new thing called [neumorphism](https://www.inputmag.com/design/apple-macos-big-sur-the-rise-of-neumorphism){:target="_blank"}. Neumorphism is a design trend that focuses on creating an impression of a realistic 3D environment using shadow and lighting effects.
 
-The times may well be changing, but in my view we are absolutely not returning to an age of textured writing paper and 
+The times may well be changing, but in my view we are not returning to an age of textured writing paper and 
 stitched leather. This is why.
 
 
 ### Icons, icons, icons
 
-Since the unveiling of macOS Big Sur a lot has been made of its new iOS shaped icon set. Everyone seems to either love or hate the new icon set. 
+Since the unveiling of macOS Big Sur a lot has been made of its new iOS shaped icon set. Everyone seems to either love or hate the new icons. 
 
 [![macOS Big Sur icons]({{site.baseurl}}/assets/img/macos-flat/macos-big-sur-icons.jpg)]({{site.baseurl}}/assets/img/macos-flat/macos-big-sur-icons.jpg)
 
-Don’t be mislead by the icons - macOS icons have always been richer and more detailed than iOS icons. This is down to the fact that desktop interfaces tend to be more detailed as desktop users tend to less distracted compared to mobile users. In short, for as long as technology has allowed, macOS icons have been rich, detailed and realistic looking. If you don't believe me, these are a selection of macOS Catalina's icons:
+Don’t be mislead by the icons - macOS icons have always been richer and more detailed than iOS icons. They have also used shadows and to create a sense of depth. In my view desktop interfaces are often more detailed as desktop users tend to use them for longer periods of undistracted time compared to mobile devices. Therefore adding more detail and richness is appropriate. In short, for as long as technology has allowed, macOS icons have been rich, detailed and realistic looking. Here are a selection of macOS Catalina's icons to illustrate this:
 
 [![Detailed macOS Catalina icons]({{site.baseurl}}/assets/img/macos-flat/depth-in-macos-catalina.png)]({{site.baseurl}}/assets/img/macos-flat/depth-in-macos-catalina.png)
 
@@ -32,14 +32,14 @@ The new icon set in Big Sur is simply a convergence of the existing highly detai
 
 > "We wanted consistency throughout the ecosystem so users can move fluidly between their Apple devices, but we also love that Mac icons have a deep history and a distinct look and feel. So we retained many of the highly crafted details and th playful elements that make Mac icons unique"
 
-It’s also worth remembering that in many places the icons in macOS are simpler than before as Apple is porting its symbol library from iOS. This means that in many places, existing detailed icons have become simple, monochrome 2D symbols.
+It’s also worth remembering that in many places the icons in macOS are simpler than before as Apple is porting its unified language of symbols from iOS. This means that in many places, existing detailed icons have become simple, monochrome 2D icons.
 
 [![Icons in Podcast app's preferences]({{site.baseurl}}/assets/img/macos-new-ui/apple-music-podcasts/5-podcasts-preferences-macos-catalina-big-sur-comparison.png)]({{site.baseurl}}/assets/img/macos-new-ui/apple-music-podcasts/5-podcasts-preferences-macos-catalina-big-sur-comparison.png)
 
 
 ### Big Sur is flatter than ever
 
-This may surprise a few people, but if you look at the user interfaces in macOS Big Sur and compare it to the current release Catalina you won’t see richer shading and detailing. 
+This may surprise a few people, but if you look at the user interfaces in macOS Big Sur and compare it to the current release Catalina you won’t see richer shading and detailing. Also, while macOS Big Sur uses transparency, and shadows to create the impression of layers in the UI, this isn't a new thing for macOS.
 
 Actually, you’ll see a lot of the detail, texture and shadows have been removed. As a whole, macOS Big Sur’s interface is cleaner and more minimalist than ever. One of the aspects I’ve noticed most is there tends to be less contrast between UI elements. Apple has also completely dropped the aluminium inspired window chromes which can be traced back to Quicktime in the 1990s.
 
