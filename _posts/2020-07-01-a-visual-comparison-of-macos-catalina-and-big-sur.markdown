@@ -35,7 +35,7 @@ It's a shame that this sidebar hasn't yet made it to other parts of the preferen
 One aspect of preferences that has been quite controversial (on Twitter at least) is the new icons. I'm going to hold off judgement for now as they don't yet look finished. For example, the Notifications icon does not even support retina displays.
 
 {% include image-gallery.html folder="/img/macos-new-ui/preferences/" %}
-You'll notice that the Startup Disk pane uses apples new dialog box UI. This is quite a departure from the existing drop-down - it feels much more iOS-like. 
+You'll notice that the Startup Disk pane uses apples new dialog (or sheet) UI. This is quite a departure from the existing sheet drop-down - it feels much more iOS-like. 
 
 ## Menu Bar and Notification Center
 This is one of the areas where macOS has changed the most. It's also difficult to take decent screenshots of  both of these. Control Center looks like it's been badly photocopied and the Notification Center in Catalina has a bug whereby it renders at double it's normal width.
