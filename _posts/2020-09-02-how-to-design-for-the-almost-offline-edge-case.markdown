@@ -10,7 +10,7 @@ image: /assets/img/almost-offline-edge-case-design.png
 
 Here’s a lesson on designing for edge cases that I learned while travelling around Greece this summer. 
 
-We were lucky enough to be able to hike in the northern mountainous region of Zagoria and then spend some time on the island of the Milos where we mostly ate too much and sat on the beach. Either way, this post is not about my holiday, but about a usability edge case that it exposed me to…
+We were lucky enough to be able to hike in the northern mountainous region of [Zagoria](https://www.parttimebackpacker.com/blog/2016/6/27/zagoria-greeces-hidden-wilderness){:target="_blank"} and then spend some time on the island of the Milos where we mostly ate too much and sat on the beach. Either way, this post is not about my holiday, but about a usability edge case that it exposed me to…
 
 Most of the islands and remote areas in Greece have very patchy reception. For the most part, seeing ‘3G’ on your phone essentially means no data, and ‘4G’ means slow, unreliable data. Eventually, you may be able to load a light web page, but this is mostly going to be a torturous experience. 
 
@@ -20,9 +20,9 @@ In reality, it turns out the way many app developers are approaching cached and 
 
 For example, Google maps when opened in an area with crappy internet connectivity does not display the cached (or manually downloaded) map content, but instead displays a super, low-resolution version of the map. I assume this is because it is attempting to download a full resolution, up to date version of the content. While it’s good to show up to date information such as traffic, in a case where I needed to quickly glance at a map waiting for Google Maps to repeatedly attempt to access a map from Google’s servers which already exists on my device is the absolute worse experience.
 
-In many instances, the only way I could get Google Maps to work was by switching to Flight Mode in order to force the app to use downloaded maps.
-
 ![Where am I?({{site.baseurl}}/assets/img/where-am-i.png)]({{site.baseurl}}/assets/img/where-am-i.png)
+
+In many instances, the only way I could get Google Maps to work was by switching to Flight Mode in order to force the app to use downloaded maps.
 
 This isn’t an isolated instance. For example, Audible exhibits the same behaviour. Before playing a downloaded audiobook the app first attempts to connect to Audible - possibly to check if there’s an updated play location. If the app can’t connect to Audible it will either show an error message stating the download content is corrupt (a bug?), or simply just not play the content. Again, the only workaround seems to be to briefly enter Flight Mode and be truly offline
 
