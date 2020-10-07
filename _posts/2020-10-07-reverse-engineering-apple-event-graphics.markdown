@@ -13,7 +13,7 @@ This week as a side project I decided to recreate this year’s October Apple ev
 
 ### Why do this?
 
-Every Apple event has its own particular style with beautifully crafted graphics specific to that event. This October’s event was announced yesterday with an invite including almost luminous overlapping circles. Personally, this is one of my favourites; it reminds me of looking up into a Louis Poulsen PH5 lamp. This got me wondering what the actual inspiration was, and how it was created.
+Every Apple event has its own particular style with beautifully crafted graphics specific to that event. This October’s event was announced yesterday with an invite including almost luminous overlapping circles. Personally, this is one of my favourites; it reminds me of looking up into a [Louis Poulsen PH5 lamp](https://www.louispoulsen.com/en/catalog/private/pendants/ph-5?v=90293-5741099812-01&t=about){:target="_blank"} . This got me wondering what the actual inspiration was, and how it was created.
 
 I then decided to have a go at recreating it this as one area I’d like to improve my skills is in creating illustrations. Most of my work is creating web pages and user interfaces, but rarely do I try something a little more whimsical.
 
