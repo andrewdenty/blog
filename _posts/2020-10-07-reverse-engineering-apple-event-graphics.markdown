@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Recreating an Apple event invite in Figma"
-date:   2020-08-02 14:02:00 +0200
+date:   2020-10-07 21:06:00 +0200
 tags: [Graphic Design, Figma, Apple, Visual design]
 image: /assets/img/apple-event-reverse-engineered.jpg
 ---
