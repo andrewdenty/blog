@@ -13,7 +13,7 @@ It’s a fantastic way to absorb books. A few years ago I had a daily cycle comm
 
 However since then I’ve moved apartments and jobs. I still find Audible valuable, I just can’t get through audiobooks in the way that I used to. I’ve often found my Audible credits are building up faster than I can get through audiobooks.
 
-There is one thing I don’t like about Audible though. The dark patterns it employs in its attempts to keep users from unsubscribing. In fact I’d argue they’re downright nefarious. At every step of the cancellation process Audibles design does its best to obscure your choices. You are repeatedly told that if you cancel, you will lose your valuable credits.
+There is one thing I don’t like about Audible though. The dark patterns it employs in its attempts to keep users from unsubscribing. In fact I’d argue they’re downright nefarious. At every step of the cancellation process Audible's design does its best to obscure your choices. You are repeatedly told that if you cancel, you will lose your valuable credits. To be clear you can pause your subscription for 30, 60 or 90 days at any time.
 
 Therefore I thought it was only fair to demystify the process of pausing your subscription
 
