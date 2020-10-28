@@ -37,7 +37,7 @@ At this point things seem to start seeming very final. Again this is not the cas
 #### Step five
 Finally the options! From here you can choose to either pause your membership, or select one of the other available offers. What you see here may vary slightly. In the past I have also been offered a 3 month membership period at half-price.
 
-![Pause Audible Step 5]({{site.baseurl}}/assets/img/audible/pause-audible-step-5-options.png)
+![Pause Audible Step 5]({{site.baseurl}}/assets/img/audible/pause-audible-step-5-the-options.png)
 Step six - enjoy your membership break and use up those credits...
 
 
