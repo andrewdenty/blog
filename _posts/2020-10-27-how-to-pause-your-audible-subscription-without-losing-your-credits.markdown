@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-title:  "How to pause your Audible Subscription without losing your credits"
+title:  "How to pause your Audible subscription without losing your credits"
 date:   2020-10-27 22:10:00 +0200
 tags: [Audible, Dark patterns, life hacks]
 image: /assets/img/audible/pause-audible.png
 ---
-![How to pause your Audible Subscription]({{site.baseurl}}/assets/img/audible/pause-audible.png)
+![How to pause your Audible subscription]({{site.baseurl}}/assets/img/audible/pause-audible.png)
 I love Audible.
 
 It’s a fantastic way to absorb books. A few years ago I had a daily cycle commute across Copenhagen which meant I was cycling for almost an hour every day. During this time Audible helped me use this time to devour books.
