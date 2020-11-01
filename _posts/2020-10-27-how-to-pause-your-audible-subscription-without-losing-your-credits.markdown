@@ -38,12 +38,8 @@ At this point things seem to start seeming very final. Again this is not the cas
 Finally the options! From here you can choose to either pause your membership, or select one of the other available offers. What you see here may vary slightly. In the past I have also been offered a 3 month membership period at half-price.
 
 ![Pause Audible Step 5]({{site.baseurl}}/assets/img/audible/Pause-audible-step-5-options.png)
-#### Step six
-Enjoy your membership break and use up those credits. Don't forget that Audible credits expire 12 months after being issued. Pausing your membership won't prevent credits expiring.
+Step six - enjoy your membership break and use up those credits...
 
-
-### What about annual Audible plans?
-If you have an annual Audible plan, you won't be able to pause your subscription. This is because you have effectively prepaid for the entire year upfront. However you can cancel your subscription and you will still be able to keep and access any audiobooks in your Library, even without a membership.
 
 ### Looking for a way to use up your spare credits?
 If you have a few credits to use up and would like some book recommendations, these are some books I’ve thoroughly enjoyed on Audible:
