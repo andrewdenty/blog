@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-title:  "How to pause your Audible Subscription without losing your credits"
+title:  "How to pause your Audible subscription without losing your credits"
 date:   2020-10-27 22:10:00 +0200
 tags: [Audible, Dark patterns, life hacks]
 image: /assets/img/audible/pause-audible.png
 ---
-![How to pause your Audible Subscription]({{site.baseurl}}/assets/img/audible/pause-audible.png)
+![How to pause your Audible subscription]({{site.baseurl}}/assets/img/audible/pause-audible.png)
 I love Audible.
 
 It’s a fantastic way to absorb books. A few years ago I had a daily cycle commute across Copenhagen which meant I was cycling for almost an hour every day. During this time Audible helped me use this time to devour books.
@@ -25,19 +25,19 @@ Head to the “Account Details” section under the profile menu.
 #### Step two
 Click "Cancel membership".
 
-![Pause Audible Step 2]({{site.baseurl}}/assets/img/audible/Pause-audible-step-2.png)
+![Pause Audible Step 2]({{site.baseurl}}/assets/img/audible/pause-audible-step-2.png)
 #### Step three
 This is the first step in the process which is a bit misleading as it implies clicking "continue cancelling" will result in losing your credits. This is not the case. Your credits are safe at this point. Click "continue cancelling".
 
-![Pause Audible Step 3]({{site.baseurl}}/assets/img/audible/Pause-audible-step-3.png)
+![Pause Audible Step 3]({{site.baseurl}}/assets/img/audible/pause-audible-step-3.png)
 #### Step four
 At this point things seem to start seeming very final. Again this is not the case, simply keep "I don't use it enough" selected and click "Cancel membership".
 
-![Pause Audible Step 4]({{site.baseurl}}/assets/img/audible/Pause-audible-step-4.png)
+![Pause Audible Step 4]({{site.baseurl}}/assets/img/audible/pause-audible-step-4.png)
 #### Step five
 Finally the options! From here you can choose to either pause your membership, or select one of the other available offers. What you see here may vary slightly. In the past I have also been offered a 3 month membership period at half-price.
 
-![Pause Audible Step 5]({{site.baseurl}}/assets/img/audible/Pause-audible-step-5-options.png)
+![Pause Audible Step 5]({{site.baseurl}}/assets/img/audible/pause-audible-step-5-the-options.png)
 Step six - enjoy your membership break and use up those credits...
 
 
