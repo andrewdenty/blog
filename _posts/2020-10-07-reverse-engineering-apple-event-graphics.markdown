@@ -27,6 +27,6 @@ If you’re interested you’re more than welcome to take a look at the original
 
 [![Comparison of the Apple event invite and my Figma recreation]({{site.baseurl}}/assets/img/apple-invite-comparison.png)]({{site.baseurl}}/assets/img/apple-invite-comparison.png)
 
-[View or fork the project in Figma](https://www.figma.com/file/OxdE0HKjiV4QwyRFKPLuGB/Apple-Kata?node-id=1%3A290){:target="_blank"} 
+[View or fork the project in Figma](https://www.figma.com/file/L2QZKwroB6UutnUPI1SbP8/Apple-Kata?node-id=0%3A1){:target="_blank"} 
 
 Let me know in the comments if you have any suggestions or tips for ways of improving it.
