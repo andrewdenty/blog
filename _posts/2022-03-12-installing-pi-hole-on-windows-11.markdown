@@ -8,7 +8,7 @@ image: /assets/img/install-pihole-on-windows-11-using-docker.png
 ---
 ![Pi-hole on Windows 11]({{site.baseurl}}/assets/img/install-pihole-on-windows-11-using-docker.png)
 
-### What is Pi-hole and why run it on Windows?
+### What is Pi-hole and why run it on Windows??
 
 Two years ago I wrote a step by step guide explaining [how to install Pi-hole on Windows 10]({{site.baseurl}}/2020/01/25/installing-pi-hole-on-windows-10.html) to block ads on your home network.
 
