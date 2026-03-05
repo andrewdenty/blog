@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://www.andrewdenty.com/blog/sitemap.xml
