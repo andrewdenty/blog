@@ -2,23 +2,44 @@
 layout: default
 ---
 
-<style type="text/css" media="screen">
-  .error-section {
-    text-align: center;
-    margin-top:80px;
-  }
-  h1 {
-    margin: 30px 0;
-    font-weight: 700;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+<style>
+    .not-found {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 120px 0 160px;
+        text-align: center;
+    }
+
+    .not-found-code {
+        font-size: 136px;
+        font-weight: 700;
+        line-height: 1;
+        color: #222;
+        margin-bottom: 24px;
+    }
+
+    .not-found-home {
+        color: #707070;
+        text-decoration: underline;
+        border-bottom: none;
+    }
+
+    .not-found-home:hover {
+        color: #F6714F;
+        border-bottom: none;
+    }
+
+    .not-found p {
+        margin-bottom: 4px;
+    }
 </style>
 
-<div class="error-section">
-  <h1>404</h1>
-
-  <p>Page not found</p>
-
+<div class="container">
+    <div class="not-found">
+        <div class="not-found-code">404</div>
+        <p>This page isn't in the design system.</p>
+        <p><a class="not-found-home" href="/">Take me home</a></p>
+    </div>
 </div>
