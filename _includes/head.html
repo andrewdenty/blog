@@ -3,13 +3,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- seo -%}
-    <!-- Main site shared styles (loaded first so blog overrides win the cascade) -->
+    <!-- Bootstrap 5 (served from portfolio to stay in sync — upgrading portfolio upgrades blog automatically) -->
+    <link rel="stylesheet" href="https://www.andrewdenty.com/assets/css/bootstrap.min.css">
+    <!-- Shared portfolio styles (loaded after Bootstrap so overrides win the cascade) -->
     <link rel="stylesheet" type="text/css" href="https://www.andrewdenty.com/assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <!-- Blog-specific styles (loaded last so they override shared styles) -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/main.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap 5 JS bundle (no jQuery dependency) -->
+    <script src="https://www.andrewdenty.com/assets/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" type="image/png" href="{{site.url}}/assets/img/favicon.png" />
     {%- feed_meta -%}
     {%- if jekyll.environment == 'production' and site.google_analytics -%}

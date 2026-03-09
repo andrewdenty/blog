@@ -19,7 +19,7 @@ layout: post-list
           
                 <div class="col-md-6 d-flex mb-3 mt-3">
                 <a class="card" href="{{ post.url | relative_url }}" >
-                            <div class="thumbnail card-img-top" style="background-image: url('{{site.baseurl}}/{{ post.image }}')"></div>
+                            <div class="thumbnail card-img-top" style="background-image: url('{{ post.image | relative_url }}')"></div>
                             <div class="card-body">
                                             <h3>
                                                 {{ post.title | escape }}
