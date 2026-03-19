@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Kicking off a new project: Gay Places"
+title: "Introducing Gay Places"
 date: 2026-03-19 09:00:00 +0000
 tags: [Side Projects, LGBTQ+, Travel]
 image: /assets/img/gay-places-graphic.png
