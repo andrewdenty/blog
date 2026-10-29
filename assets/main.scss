@@ -18,6 +18,8 @@ a:visited {color: #707070;}
 .post img {background: #ffffff;}
 
 .highlighter-rouge {color: #F6714F;}
+pre, code {background-color: #FFE2DB;border-color: #FF6644;}
+.highlighter-rouge .highlight {background-color: #FFE2DB;} /* Minima paints this code block wrapper lavender too */
 .site-title, .site-title:visited {font-weight: 600;font-size: 24px; color: #22bee3}
 .site-header {background-color:#fafafa;border:none;color:#707070;margin-top: 0px;margin-bottom:0px;padding-top:60px; padding-bottom: 60px;}
 .page-header {font-weight: 500;}
