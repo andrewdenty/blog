@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why you should stop using Arial and Helvetica"
+description: "My take on a call to stop using Arial and Helvetica on the web. Helvetica can be hard to read at small sizes, but the answer is a modern web font, not Verdana."
 date:   2014-02-19 15:31:49 +0200
 tags: [Typography, Design, Web design,]
 image: /assets/img/stop-using-arial-helvetica.png

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Linked - Designing with kindness."
+description: "A link to UX Booth's piece on designing with kindness: think about how people are likely to feel at each moment, from Facebook reminders to error messages."
 date:   2015-05-20 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 image: /assets/img/linked-post-thumb.png

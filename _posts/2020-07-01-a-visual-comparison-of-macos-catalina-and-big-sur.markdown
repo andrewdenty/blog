@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "A visual comparison of macOS Catalina and Big Sur"
+description: "Side-by-side screenshots of macOS Catalina and the Big Sur beta, covering Finder, Preferences, Control Center, Safari, Notes and more, with first impressions."
 date:   2020-07-01 18:01:00 +0200
 tags: [Apple, macOS, Catalina, Big Sur, UI, Interaction design, Visual design]
 image: /assets/img/catalina-vs-big-sur.jpg

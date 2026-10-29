@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "How to design for the almost offline edge case"
+description: "Patchy signal on holiday in Greece showed how Google Maps and Audible struggle with downloaded content. Why designers should treat a weak connection as offline."
 date:   2020-08-02 14:02:00 +0200
 tags: [Interaction design,Usability,Edge case design, Visual design]
 image: /assets/img/almost-offline-edge-case-design.png

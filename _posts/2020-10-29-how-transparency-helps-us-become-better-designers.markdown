@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "How transparency helps us become better designers"
+description: "Why sharing your work early and openly almost always leads to a better end product. An introduction to the article I wrote for The Org on transparent design."
 date:   2020-10-29 08:49:00 +0200
 tags: [Design Process, Transparency, The Org, Figma, Product Design]
 image: /assets/img/transparency-thumb.jpg

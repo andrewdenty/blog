@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "If you're building software, use the right words."
+description: "Confusing dialog boxes show how easy it is to get the words in software wrong. A short post on writing clearer interface copy, with Google Ventures' five rules."
 date:   2014-02-19 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 image: /assets/img/use-the-right-words.png

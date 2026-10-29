@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "Install Pi-hole on Windows 10 and live ad-free forever"
+description: "How I set up Pi-hole on a Windows 10 PC with Docker to block ads across my home network. Step-by-step setup, router settings and answers to common questions."
 date:   2020-01-25 15:45:00 +0200
 tags: [Pi-hole, Docker, Ad-blocking, hacker project, Windows 10,]
 image: /assets/img/install-pihole-on-windows-10-using-docker.png

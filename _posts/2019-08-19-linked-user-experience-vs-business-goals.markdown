@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Linked - User experience vs. business goals: finding the balance"
+description: "A response to Ariel Verber's piece on balancing UX and business goals. I don't see it as a zero-sum game: in the long run, the two are almost always aligned."
 date:   2019-08-19 17:05:00 +0200
 tags: [User Experience, Business,]
 comments: true

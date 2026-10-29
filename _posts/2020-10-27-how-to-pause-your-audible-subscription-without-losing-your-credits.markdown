@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "How to pause your Audible subscription without losing your credits"
+description: "You can pause Audible for 30, 60 or 90 days without losing your credits, but the cancellation flow buries the option. Here's how to find it, step by step."
 date:   2020-10-27 22:10:00 +0200
 tags: [Audible, Dark patterns, life hacks]
 image: /assets/img/audible/pause-audible.png

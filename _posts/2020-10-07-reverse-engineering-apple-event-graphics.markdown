@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "Recreating an Apple event invite in Figma"
+description: "A side project recreating the glowing, overlapping circles of Apple's October 2020 event invite in Figma: why I tried it, how it compares, and a file to fork."
 date:   2020-10-07 21:06:00 +0200
 tags: [Graphic Design, Figma, Apple, Visual design]
 image: /assets/img/apple-event-reverse-engineered.jpg
