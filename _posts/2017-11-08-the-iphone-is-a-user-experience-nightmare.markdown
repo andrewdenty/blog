@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Is the iPhone X a user experience nightmare?"
+description: "Is the iPhone X a user experience nightmare? Why swapping the home button for a pile of new gestures might be a case of stark minimalism beating usability."
 date:   2017-11-08 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 image: /assets/img/iphonex-hands.jpg

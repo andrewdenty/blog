@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The “tell me your job title” roadblock"
+description: "Why asking visitors to pick their job role before showing them your products is a poor experience, and a habit enterprise software websites should drop."
 date:   2016-01-26 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 image: /assets/img/tell-me-your-job-title.png

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Do you want your user experience shaken or stirred?"
+description: "Should you add a setting or just make the call? How we handled filling and fitting photos on a TV app, and why options only make sense when users care."
 date:   2019-08-08 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 comments: true

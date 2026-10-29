@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Little big details in Slack"
+description: "Slack shows formatting tips as soon as you start typing a message, a small detail I rely on. My one gripe: the hints vanish just when longer messages need them."
 date:   2015-05-20 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design, Microinteractions]
 image: /assets/img/little-big-details.jpg

@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "Review: Pi-hole on Windows 10"
+description: "Four months of running Pi-hole in Docker on a Windows 10 PC: how it blocks ads, how it performs as a DNS server, what went wrong and whether it's worth it."
 date:   2020-04-24 14:49:00 +0200
 tags: [Pi-hole, Docker, Ad-blocking, hacker project, Windows 10,]
 image: /assets/img/review-living-with-pi-hole-on-windows-10.png

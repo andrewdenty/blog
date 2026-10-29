@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "Why macOS Big Sur is flatter than ever"
+description: "Despite talk of skeuomorphism and neumorphism making a comeback, macOS Big Sur is flatter than ever. Why its new look is really about converging with iOS."
 date:   2020-07-10 21:51:00 +0200
 tags: [Apple, macOS, Catalina, Big Sur, UI, Interaction design, Visual design]
 image: /assets/img/why-macos-big-sur-is-flatter-than-ever.png

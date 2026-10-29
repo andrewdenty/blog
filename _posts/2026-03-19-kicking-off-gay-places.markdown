@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Introducing Gay Places"
+description: "Introducing Gay Places, my new side project: a curated guide to gay bars, clubs and queer spaces worldwide, built to be more useful than the usual listings."
 date: 2026-03-19 09:00:00 +0000
 tags: [Side Projects, LGBTQ+, Travel]
 image: /assets/img/gay-places-graphic.png
