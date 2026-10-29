@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "History of Icons - a visual brief on icon history"
+description: "A link to Futuramo's visual history of computer icons, and why Windows 10's new icons remind me of the crisp, restrained icons from the Windows 3.x era."
 date:   2015-07-09 15:31:49 +0200
 tags: [Graphic design, Design, User experience,]
 image: /assets/img/windows-3-clock-icon.png

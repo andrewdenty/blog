@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What soft skills which are most important for UX Designers?"
+description: "From pragmatism and resilience to curiosity and commercial acumen: notes from a UX Cambridge talk on the soft skills that set the best UX designers apart."
 date:   2016-09-16 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 image: /assets/img/designer-soft-skills.png

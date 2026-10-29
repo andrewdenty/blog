@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Was this the first sign of Apple’s noughties Skuemorphism obsession?"
+description: "Apple's skeuomorphism peaked around 2012 with leather and felt, but QuickTime 4.0 shows it was hurting usability long before. Via the Interface Hall of Shame."
 date:   2016-06-21 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 image: /assets/img/quicktime-4-skuemorphism.png

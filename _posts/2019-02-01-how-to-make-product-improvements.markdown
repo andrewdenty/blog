@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to make product improvements"
+description: "Improving a product isn't always about adding features. Often it's about making existing ones work better for more people. A link to Intercom's guide."
 date:   2019-02-01 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 comments: true

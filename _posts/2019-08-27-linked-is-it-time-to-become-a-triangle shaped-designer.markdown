@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Is it time to become a triangle shaped designer?"
+description: "What's a triangle-shaped designer? Aman Gupta's take on the T-shaped designer adds business thinking. It made me want to explain the business case for my work."
 date:   2019-08-27 15:05:05 +0200
 tags: [User Experience, Business,]
 comments: true

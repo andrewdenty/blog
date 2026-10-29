@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The art of Mac app installation"
+description: "Why installing a Mac app from the web feels different every time: four common ways apps reach the Applications folder, from outright hostile to almost perfect."
 date:   2019-08-18 19:17:00 +0200
 tags: [User Experience, Simplicity, Design, MacOS, Interaction Design,]
 comments: true

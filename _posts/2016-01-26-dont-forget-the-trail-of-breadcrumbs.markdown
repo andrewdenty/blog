@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Don’t forget the trail of breadcrumbs - navigating the Microsoft website."
+description: "Steve Krug's Don't Make Me Think reminded me how the Microsoft website's shifting logos and menus make it easy to get lost. Why a consistent site ID matters."
 date:   2016-01-26 15:31:49 +0200
 tags: [User Experience, Simplicity, Design, Interaction Design,]
 image: /assets/img/trail-of-breadcrumbs.jpg

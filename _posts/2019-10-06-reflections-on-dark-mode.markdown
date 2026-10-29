@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Reflections on dark mode"
+description: "I tried dark mode for a few weeks and went back to light mode, mostly because of screen reflections. Plus why 2019, of all years, became the year of dark mode."
 comments: true
 date:   2019-10-06 19:34:03 +0200
 tags: [User Experience, Business, dark mode, iOS,]
