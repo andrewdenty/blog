@@ -18,6 +18,8 @@ a:visited {color: #707070;}
 .post img {background: #ffffff;}
 
 .highlighter-rouge {color: #F6714F;}
+pre, code {background-color: #FFE2DB;border-color: #FF6644;}
+.highlighter-rouge .highlight {background-color: #FFE2DB;} /* Minima paints this code block wrapper lavender too */
 .site-title, .site-title:visited {font-weight: 600;font-size: 24px; color: #22bee3}
 .site-header {background-color:#fafafa;border:none;color:#707070;margin-top: 0px;margin-bottom:0px;padding-top:60px; padding-bottom: 60px;}
 .page-header {font-weight: 500;}
@@ -74,6 +76,7 @@ div.row.post-list {margin-left: -12px;} /* Minima sets .post-list { margin-left:
 
   blockquote {font-style:normal;border-left: 8px solid #f4f4f4;letter-spacing:normal; padding:10px 50px 10px 20px; }
   .post blockquote>p {font-weight:400;font-size: 20px;color:#F6714F;margin-block-end: 0px;}
+  .post blockquote.note>p {font-size: 17px;} /* Update notes ({: .note} in Markdown) use body-size text; pull quotes stay large */
 
 
 

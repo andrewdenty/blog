@@ -17,6 +17,7 @@ Pi-hole was designed for the Raspberry Pi, but thanks to Docker you can run it o
 Back in 2020 I wrote a step-by-step guide to [installing Pi-hole on Windows 10]({{site.baseurl}}/2020/01/25/installing-pi-hole-on-windows-10.html). I definitely wasn't prepared for the response! The post has had hundreds of thousands of visits, and heaps of helpful comments that helped me refine the instructions. I wrote it as a go-to guide for myself, and somehow it became one for a whole community of tinkerers. This Windows 11 version followed in 2022 when I moved to a new PC, and I keep it up to date as Pi-hole, Docker and Windows change.
 
 > **Updated October 2026 for Pi-hole v6.** Pi-hole v6 changed how passwords and settings work in Docker, so older instructions (including earlier versions of this guide) no longer work. If you can't log in to Pi-hole, [jump to the fix](#cant-log-in).
+{: .note}
 
 If you're wondering whether it's worth running Pi-hole on Windows, or whether you should just buy a Raspberry Pi, take a look at my [review of living with Pi-hole on Windows]({{site.baseurl}}/2020/04/24/review-living-with-pi-hole-on-windows-10.html).
 
