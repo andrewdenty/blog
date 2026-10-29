@@ -8,6 +8,8 @@ image: /assets/img/install-pihole-on-windows-10-using-docker.png
 ---
 ![Pi-hole on Windows 10]({{site.baseurl}}/assets/img/install-pihole-on-windows-10-using-docker.png)
 
+> **Update October 2026:** This guide was written for Pi-hole v5, and the Docker command below no longer works properly with the current version of Pi-hole. Windows 10 has also reached the end of support. For up-to-date instructions, follow my [guide to installing Pi-hole on Windows 11]({{site.baseurl}}/2022/03/13/installing-pi-hole-on-windows-11.html). The Docker steps are the same if you're still on Windows 10.
+
 ### What is Pi-hole and why run it on Windows?
 
 [Pi-hole](https://pi-hole.net/){:target="_blank"} is hands-down, the best ad blocker available.  
